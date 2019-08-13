@@ -3,7 +3,7 @@
 		    /     |     \
 		 ABC     BAC    CBA   swap the first one 
 	        /  |      | 	 |  \
-	     ABC  ACB     |    CBA   CAB      then the two  => l==r 
+	     ABC  ACB     |    CBA   CAB      then the sec/third  => l==r 
 	     	       BAC BCA
 	     
 */
