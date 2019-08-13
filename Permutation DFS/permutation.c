@@ -1,11 +1,11 @@
 #include <stdio.h>
+
 void swap(char arr[] , int l , int i){
 	int temp = arr[i];
 	arr[i] = arr[l];
 	arr[l] = temp;
 	
 }
-
 void permutate(char arr[], int l , int r){
 	int i;
 	if( l == r)
@@ -22,6 +22,4 @@ void permutate(char arr[], int l , int r){
 int main(){
 	char arr[] = {'a','b','c'};
 	permutate(arr,0,3);
-	int a; 
-	scanf("%d",&a);
 }
