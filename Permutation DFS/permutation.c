@@ -3,9 +3,9 @@
 */
 #include <stdio.h>
 
-void swap(char arr[] , int l , int i){
-	int temp = arr[i];
-	arr[i] = arr[l];
+void swap(char arr[] , int l , int r){
+	int temp = arr[r];
+	arr[r] = arr[l];
 	arr[l] = temp;
 	
 }
