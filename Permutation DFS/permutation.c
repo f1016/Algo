@@ -1,3 +1,12 @@
+/*LOGIC:
+			 ABC
+		    /     |     \
+		 ABC     BAC    CBA   swap the first one 
+	        /  |      | 	 |  \
+	     ABC  ACB     |    CBA   CAB      then the two  => l==r 
+	     	       BAC BCA
+	     
+*/
 #include <stdio.h>
 
 void swap(char arr[] , int l , int i){
