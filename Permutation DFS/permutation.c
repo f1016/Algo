@@ -1,11 +1,5 @@
 /*LOGIC:
-			          ABC
-		 A-A/           B-B|  		C-C\
-	  	 ABC             BAC		    CBA		swap the first one 
-	  B-B/    B-C\          A-A| 		B-B/   B-A\
-	  ABC       ACB         A-C|   		CBA       CAB  then the sec/third  => l==r 
-	     	      		BAC BCA
-	     
+	swap the position    
 */
 #include <stdio.h>
 
