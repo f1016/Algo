@@ -1,10 +1,10 @@
 /*LOGIC:
-			 ABC
-		    /     |     \
-		 ABC     BAC    CBA   swap the first one 
-	        /  |      | 	 |  \
-	     ABC  ACB     |    CBA   CAB      then the sec/third  => l==r 
-	     	       BAC BCA
+			          ABC
+		 A-A/           B-B|  		C-C\
+	  	 ABC             BAC		    CBA		swap the first one 
+	  B-B/    B-C\          A-A| 		B-B/   B-A\
+	  ABC       ACB         A-C|   		CBA       CAB  then the sec/third  => l==r 
+	     	      		BAC BCA
 	     
 */
 #include <stdio.h>
