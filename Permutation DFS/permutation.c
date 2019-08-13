@@ -8,7 +8,7 @@
 	
 	just fix one by one 
 	
-	
+	TIME: O(n!) SPACE: O(n)
 	
 */
 #include <stdio.h>
