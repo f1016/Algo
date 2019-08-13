@@ -1,5 +1,15 @@
 /*LOGIC:
-	swap the position    
+	i l    recur1 => i l  => recur2 => i l => PRINT
+	0 0 A-A		 1 1 B-B           2 2 => ABC	   
+	0 0              2 1               2 2 => ACB
+	1 0 A-B		 1 1 A-A           2 2 => BAC
+	1 0              2 1 A-C           2 2 => BCA
+	...
+	
+	just fix one by one 
+	
+	
+	
 */
 #include <stdio.h>
 
