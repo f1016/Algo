@@ -1,3 +1,5 @@
+//Time : O(n) , Space : O(1)
+
 class Solution {
     public int maxSubArray(int[] nums) {
         int cur = nums[0];
