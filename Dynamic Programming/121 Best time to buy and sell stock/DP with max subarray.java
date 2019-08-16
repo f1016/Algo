@@ -1,6 +1,7 @@
 // find the profit of consecutive day
 // find the largest profit up to i-th day ( max subarray up to i-th day)
 // sort it
+//Time: O(n) * 2 Space:O(n) 
 
 class Solution {
     public int maxProfit(int[] prices) {
