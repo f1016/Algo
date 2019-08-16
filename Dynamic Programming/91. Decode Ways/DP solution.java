@@ -4,7 +4,7 @@
 	check 1 2 [3] 4 the sum will be same as 1 2 ; (A B C) / (L C) num[2] = num[1] = 2
 	check 1 [2 3] 4 then (A W) , combine [2 3] and sum up all the result before i-1
 	
-	in conclusion: It it just (i-th) = (i-1)-th + (i-2)-th 
+	in conclusion: It is just (i-th) = (i-1)-th + (i-2)-th 
 	
 	special case end with 0:
 	0 must be combined with the (i-1)th 
