@@ -1,0 +1,2 @@
+Integer.valueOf(s.substring(0,2)) return the actual value
+Integer.valueOf(s.charAt(0,2)) return the ASCII value
